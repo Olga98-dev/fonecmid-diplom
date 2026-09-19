@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3faeebe9-3c68-48e2-a409-87a482510788">
+  <name>ПланыВидовРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планы видов расчета</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
+  <parentSubsystem>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_ВзаиморасчетыССотрудниками</parentSubsystem>
+</mdclass:Subsystem>

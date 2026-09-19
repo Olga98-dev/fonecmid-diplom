@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_ВзаиморасчетыССотрудниками.Subsystem.Справочники</subsystems>
+    <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_ВзаиморасчетыССотрудниками.Subsystem.Документы</subsystems>
+    <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_ВзаиморасчетыССотрудниками.Subsystem.ПланыВидовРасчета</subsystems>
+    <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_ВзаиморасчетыССотрудниками.Subsystem.РегистрыСведений</subsystems>
+    <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_ВзаиморасчетыССотрудниками.Subsystem.РегистрыНакопления</subsystems>
+    <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_ВзаиморасчетыССотрудниками.Subsystem.РегистрыРасчета</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

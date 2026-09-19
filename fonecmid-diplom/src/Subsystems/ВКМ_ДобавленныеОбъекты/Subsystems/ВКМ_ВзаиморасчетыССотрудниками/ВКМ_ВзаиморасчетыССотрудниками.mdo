@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="335759cb-9658-4002-88a4-3e3a5c3917ef">
+  <name>ВКМ_ВзаиморасчетыССотрудниками</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ взаиморасчеты с сотрудниками</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Документы</subsystems>
+  <subsystems>РегистрыСведений</subsystems>
+  <subsystems>РегистрыНакопления</subsystems>
+  <subsystems>ПланыВидовРасчета</subsystems>
+  <subsystems>РегистрыРасчета</subsystems>
+  <subsystems>Сервис</subsystems>
+  <parentSubsystem>Subsystem.ВКМ_ДобавленныеОбъекты</parentSubsystem>
+</mdclass:Subsystem>

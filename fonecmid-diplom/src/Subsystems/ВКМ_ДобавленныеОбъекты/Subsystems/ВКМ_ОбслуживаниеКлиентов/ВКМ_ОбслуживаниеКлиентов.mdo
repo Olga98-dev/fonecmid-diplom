@@ -7,12 +7,9 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Document.ВКМ_ОбслуживаниеКлиентов</content>
-  <content>Catalog.ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы</content>
-  <content>Catalog.ДоговорыКонтрагентов</content>
-  <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
-  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
-  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
-  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Документы</subsystems>
+  <subsystems>РегистрыНакопления</subsystems>
+  <subsystems>Сервис</subsystems>
   <parentSubsystem>Subsystem.ВКМ_ДобавленныеОбъекты</parentSubsystem>
 </mdclass:Subsystem>

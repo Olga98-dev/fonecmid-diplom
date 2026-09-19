@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fc853a6-18e1-4bf3-a8de-7820e2348ed2">
+  <name>РегистрыНакопления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистры накопления</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
+  <parentSubsystem>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_ВзаиморасчетыССотрудниками</parentSubsystem>
+</mdclass:Subsystem>
