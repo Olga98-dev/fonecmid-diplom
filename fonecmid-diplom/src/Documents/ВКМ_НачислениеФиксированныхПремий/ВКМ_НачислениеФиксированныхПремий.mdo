@@ -10,7 +10,7 @@
   <name>ВКМ_НачислениеФиксированныхПремий</name>
   <synonym>
     <key>ru</key>
-    <value>Начисление фиксированных премий</value>
+    <value>Начисление фиксированных премий (вкм)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ВКМ_НачислениеФиксированныхПремий.StandardAttribute.Number</inputByString>

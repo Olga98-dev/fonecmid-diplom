@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fd32a8e-aeda-44b8-8977-77c7c6c4de8c">
+  <name>ВКМ_ЧтениеРегистраРасчетаУдержания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение регистра расчета удержания (вкм)</value>
+  </synonym>
+</mdclass:Role>

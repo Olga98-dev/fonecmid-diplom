@@ -3,7 +3,7 @@
   <name>ВКМ_ОбслуживаниеКлиентов</name>
   <synonym>
     <key>ru</key>
-    <value>Обслуживание клиентов</value>
+    <value>Обслуживание клиентов </value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
@@ -11,5 +11,6 @@
   <subsystems>Документы</subsystems>
   <subsystems>РегистрыНакопления</subsystems>
   <subsystems>Сервис</subsystems>
+  <subsystems>Отчеты</subsystems>
   <parentSubsystem>Subsystem.ВКМ_ДобавленныеОбъекты</parentSubsystem>
 </mdclass:Subsystem>

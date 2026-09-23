@@ -14,5 +14,6 @@
   <subsystems>ПланыВидовРасчета</subsystems>
   <subsystems>РегистрыРасчета</subsystems>
   <subsystems>Сервис</subsystems>
+  <subsystems>Отчеты</subsystems>
   <parentSubsystem>Subsystem.ВКМ_ДобавленныеОбъекты</parentSubsystem>
 </mdclass:Subsystem>

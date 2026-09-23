@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe867357-8555-472d-a380-9f5b03377570">
+  <name>ВКМ_ИзменениеРедактированиеПлановВидовРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение редактирование планов видов расчета (вкм)</value>
+  </synonym>
+</mdclass:Role>

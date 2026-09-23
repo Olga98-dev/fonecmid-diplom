@@ -4,6 +4,41 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_ОбслуживаниеКлиентов.Subsystem.РегистрыНакопления</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_ОбслуживаниеКлиентов.Subsystem.Справочники</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_ОбслуживаниеКлиентов.Subsystem.Документы</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_ОбслуживаниеКлиентов</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_ОбслуживаниеКлиентов.Subsystem.Сервис</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Configuration.УправлениеITФирмой</name>
 		<right>
 			<name>ThinClient</name>
@@ -39,6 +74,13 @@
 		</right>
 		<right>
 			<name>SaveUserData</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_ОбслуживаниеКлиентов.Subsystem.Отчеты</name>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -86,10 +128,6 @@
 		</right>
 		<right>
 			<name>InteractiveClearDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
 			<value>true</value>
 		</right>
 		<right>

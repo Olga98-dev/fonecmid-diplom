@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d988847c-7ffa-43c3-abdf-6dac0b5b8f35">
+  <name>ВКМ_НастройкаРегистраУсловияОплатыСотрудникам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка регистра условия оплаты сотрудникам (вкм)</value>
+  </synonym>
+</mdclass:Role>

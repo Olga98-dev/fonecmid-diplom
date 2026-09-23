@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57b4119b-18fd-4b11-afa8-5720c6a75b34">
-  <name>ВКМ_ЧтениеВКМ_ДополнительныеНачисления</name>
-  <synonym>
-    <key>ru</key>
-    <value>Чтение регистра дополнительные начисления</value>
-  </synonym>
-</mdclass:Role>
