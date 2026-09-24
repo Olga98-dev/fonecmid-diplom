@@ -21,16 +21,36 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>СуммаКОплатеОборот</dataPath>
-			<field>СуммаКОплатеОборот</field>
+			<dataPath>СуммаКОплате</dataPath>
+			<field>СуммаКОплате</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма к оплате</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаПоРаботамСпециалиста</dataPath>
+			<field>СуммаПоРаботамСпециалиста</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма по работам специалиста</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ВКМ_ВыполненныеКлиентуРаботыОбороты.Клиент КАК Клиент,
 	ВКМ_ВыполненныеКлиентуРаботыОбороты.Договор КАК Договор,
-	ВКМ_ВыполненныеКлиентуРаботыОбороты.СуммаКОплатеОборот КАК СуммаКОплатеОборот
+	ВКМ_ВыполненныеКлиентуРаботыОбороты.СуммаКОплатеОборот КАК СуммаКОплате,
+	ЕСТЬNULL(ВКМ_ОплатаРаботСпециалистовОбороты.СуммаОборот, 0) КАК СуммаПоРаботамСпециалиста
 ИЗ
-	РегистрНакопления.ВКМ_ВыполненныеКлиентуРаботы.Обороты КАК ВКМ_ВыполненныеКлиентуРаботыОбороты</query>
+	РегистрНакопления.ВКМ_ВыполненныеКлиентуРаботы.Обороты КАК ВКМ_ВыполненныеКлиентуРаботыОбороты
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.ВКМ_ОплатаРаботСпециалистов.Обороты КАК ВКМ_ОплатаРаботСпециалистовОбороты
+		ПО ВКМ_ВыполненныеКлиентуРаботыОбороты.Клиент = ВКМ_ОплатаРаботСпециалистовОбороты.Клиент
+			И ВКМ_ВыполненныеКлиентуРаботыОбороты.Договор = ВКМ_ОплатаРаботСпециалистовОбороты.Договор</query>
 	</dataSet>
 	<parameter>
 		<name>НачалоПериода</name>
@@ -99,11 +119,14 @@
 					<dcsset:field>Клиент</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>СуммаКОплатеОборот</dcsset:field>
+					<dcsset:field>СуммаКОплате</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаПоРаботамСпециалиста</dcsset:field>
 					<dcsset:lwsTitle>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сумма к оплате</v8:content>
+							<v8:content>Сумма по работам специалистов</v8:content>
 						</v8:item>
 					</dcsset:lwsTitle>
 				</dcsset:item>
